@@ -1,3 +1,6 @@
 2.3/tls.crt
 2.3/tls.key
 2.3/openssl.cnf
+2.4/user.crt
+2.4/user.csr
+2.4/user.key

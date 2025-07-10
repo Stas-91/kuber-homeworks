@@ -1,0 +1,4 @@
+apiVersion: v2
+name: my-app-chart
+description: Пример Helm-чарта с отдельными Deployment для frontend и backend
+version: 0.1.0

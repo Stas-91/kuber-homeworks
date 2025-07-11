@@ -1,0 +1,15 @@
+namespace: app2
+resources:
+  - ../../base
+
+images:
+  - name: nginx
+    newTag: "1.27"
+  - name: wbitt/network-multitool
+    newTag: "alpine-extra"
+
+replicas:
+  - name: frontend
+    count: 3
+  - name: backend
+    count: 2

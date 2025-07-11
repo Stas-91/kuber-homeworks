@@ -1,0 +1,15 @@
+namespace: app1
+resources:
+  - ../../base
+
+images:
+  - name: nginx
+    newTag: "1.25"
+  - name: wbitt/network-multitool
+    newTag: "latest"
+
+replicas:
+  - name: frontend
+    count: 2
+  - name: backend
+    count: 2
